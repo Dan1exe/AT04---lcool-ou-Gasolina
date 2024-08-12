@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/BACKGROUND"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+    <!--android:background="#87C4CB"
+        android:backgroundTint="#87C4CB"
+
+         android:id="@+id/meuBotao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clique Aqui"
+        android:onClick="onClickButton" -->
+
+
+    <LinearLayout
+        android:layout_width="394dp"
+        android:layout_height="330dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/rounded_layout"
+        android:backgroundTint="?android:backgroundTint"
+        android:minWidth="50dp"
+        android:minHeight="50dp"
+        android:orientation="vertical"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="93dp"
+            android:layout_height="63dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/um_gal_o_de_gasolina_ilustrando_o_app"
+            android:paddingVertical="5dp"
+            android:textAlignment="center"
+            app:srcCompat="@mipmap/tanque_foreground" />
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:text="@string/gasolina_ou_lcool"
+            android:textAlignment="center"
+            android:textColor="#6B7571"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textMsg"
+            style="@style/TEXT2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="@string/digite_os_valores_para_caluclar"
+            android:textSize="15sp"
+            tools:layout_editor_absoluteX="-102dp"
+            tools:layout_editor_absoluteY="320dp" />
+
+        <EditText
+            android:id="@+id/edGasolina"
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:ems="10"
+            android:hint="@string/pre_o_da_gasolina"
+            android:inputType="numberDecimal"
+            android:numeric="decimal"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/edAlcool"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:ems="10"
+            android:hint="@string/pre_o_do_alcool"
+            android:inputType="numberDecimal"
+            android:numeric="decimal"
+            android:textSize="15sp" />
+
+        <Switch
+            android:id="@+id/swPercentual"
+            android:layout_width="106dp"
+            android:layout_height="22dp"
+            android:layout_gravity="right"
+            android:minHeight="62dp"
+            android:text="@string/_75"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="-61dp"
+            tools:layout_editor_absoluteY="329dp" />
+
+        <Button
+
+            android:id="@+id/btCalcular"
+            style="@style/BOT"
+            android:layout_width="121dp"
+            android:layout_height="37dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginVertical="50dp"
+            android:text="@string/calcular"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

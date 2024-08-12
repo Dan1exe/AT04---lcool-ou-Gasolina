@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.AlcoolOuGasolina" parent="Theme.AppCompat.DayNight">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryDark">#1F1F1F</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#B85045</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Customize your theme here. -->
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:backgroundTint">#E4F2E7</item>
+        </style>
+
+        <style name="BACKGROUND">
+            <item name="android:background">@color/gray</item>
+            <item name="android:backgroundTint">@color/teal_200</item>
+        </style>
+
+        <style name="TEXT">
+            <item name="android:textColor">@color/white</item>
+        </style>
+        <style name="TEXT2">
+            <item name="android:textColor">@color/black</item>
+        </style>
+
+        <style name="BOT">
+            <item name="android:backgroundTint">@color/gray</item>
+            <item name="android:textColor">@color/white</item>
+        </style>
+
+</resources>

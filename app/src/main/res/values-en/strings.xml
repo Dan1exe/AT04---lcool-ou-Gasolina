@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">With what fuel?</string>
+    <string name="um_gal_o_de_gasolina_ilustrando_o_app">a gallon of gasoline illustrating the app</string>
+    <string name="gasolina_ou_lcool">Gasoline or Alcohol?</string>
+    <string name="pre_o_da_gasolina">Gasoline price</string>
+    <string name="pre_o_do_alcool">Alcohol Price</string>
+    <string name="calcular">Calculate</string>
+    <string name="digite_os_valores_para_caluclar">Enter the values to calculate.</string>
+</resources>
